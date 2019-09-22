@@ -1,10 +1,10 @@
-# <name of app>
+# Dice roller
 
 An Android application that simulates a dice roll.
 
-Submitted by: <Alex Herrera>
+Submitted by: Alex Herrera
 
-Time spent: <1h>
+Time spent: 1 hour
 
 ## User Stories
 
@@ -27,7 +27,7 @@ Here's a walkthrough of implemented user stories:
 
 ## License
 
-Copyright 2019 <Alex>
+Copyright 2019 Alex Herrera
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
