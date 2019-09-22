@@ -9,6 +9,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
+    lateinit var diceImage: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -17,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         roll_button.setOnClickListener {
             rollDice()
         }
+
+        diceImage = findViewById(R.id.dice_Image)
     }
 
     private fun rollDice() {
@@ -30,7 +34,6 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.dice_6
         }
 
-        val diceImage: ImageView = findViewById(R.id.dice_Image)
         diceImage.setImageResource(drawableResource)
     }
 }
